@@ -7,7 +7,7 @@ function App() {
   const [isTimer,setisTimer]=useState(false);
   return (
     <div>
-      <button onClick={()=>setisTimer(!isTimer)} style={{backgroundColor:"lightslategray",color:"#00f005",}}>changes</button>
+      <button onClick={()=>setisTimer(!isTimer)} style={{backgroundColor:"lightslategray",color:"#00f005",}}>Toggle</button>
       {isTimer?<TimerClassComponent date={new Date()}/> : <ClockClassComponent date={ new Date()}/>
       //isTimer?<Timer date={new Date()}/> : <Clock date={new Date()}/>
       }
