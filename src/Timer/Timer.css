@@ -10,3 +10,11 @@
   font-size: 6rem;
 }
 
+.timer input{
+  color: #00f001;
+  font-family: "Orbitron", sans-serif;
+  background-color: black;
+  font-size: inherit;
+  width: 12rem;
+}
+
